@@ -59,10 +59,12 @@
 				$date = new DateTime( $get_date, $set_timezone );
 				$date->modify( '-' . ( $g ) . ' days' ); 
 			?>
+
 			<td>
 				<?php echo $day_week_in_br[ $date->format( 'N' ) ]; ?>
 				<h4><?php echo $date->format( 'd' ); ?></h4>
 			</td>
+			
 			<?php 
 
 			endfor; 
