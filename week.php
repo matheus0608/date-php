@@ -61,7 +61,7 @@
 			?>
 
 			<td>
-				<?php echo $day_week_in_br[ $date->format( 'N' ) ]; ?>
+				<b><?php echo $day_week_in_br[ $date->format( 'N' ) ]; ?></b>
 				<h4><?php echo $date->format( 'd' ); ?></h4>
 			</td>
 			
